@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+. "$CLI_WORKDIR/cli/common"
+
+
+cli_log "Removing all airflow local images and volumes"
+
+docker compose down --volumes --rmi all
+
+cli_log "All airflow local images and volumes removed"

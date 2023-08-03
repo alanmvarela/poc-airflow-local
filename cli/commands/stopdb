@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -e
+. "$CLI_WORKDIR/cli/common"
+
+cli_log "Start Postgre and Redis containers"
+
+docker compose stop airflow-init
+
+cli_log "Postgre and Redis stopped"

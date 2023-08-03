@@ -1,0 +1,4 @@
+
+Command: startdb
+Usage: 
+  starts the postgre and redis containers

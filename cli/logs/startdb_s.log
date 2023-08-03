@@ -1,0 +1,13 @@
+== startdb 2023-07-31T15:56:20Z Start Postgre and Redis containers
+Attaching to airflow-airflow-init-1
+airflow-airflow-init-1  | 
+airflow-airflow-init-1  | DB: postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-airflow-init-1  | Performing upgrade with database postgresql+psycopg2://airflow:***@postgres/airflow
+airflow-airflow-init-1  | [[34m2023-07-31T15:56:34.629+0000[0m] {[34mmigration.py:[0m213} INFO[0m - Context impl PostgresqlImpl.[0m
+airflow-airflow-init-1  | [[34m2023-07-31T15:56:34.629+0000[0m] {[34mmigration.py:[0m220} INFO[0m - Will assume transactional DDL.[0m
+airflow-airflow-init-1  | [[34m2023-07-31T15:56:34.636+0000[0m] {[34mdb.py:[0m1591} INFO[0m - Creating tables[0m
+airflow-airflow-init-1  | Upgrades done
+airflow-airflow-init-1  | airflow already exist in the db
+airflow-airflow-init-1  | 2.6.3
+airflow-airflow-init-1 exited with code 0
+== startdb 2023-07-31T15:56:41Z Postgre and Redis started
