@@ -98,11 +98,11 @@ TBD
 │   ├── airflow.sh
 │   ├── config
 │   ├── dags
-│   │   ├── __pycache__
-│   │   │   └── test_dag.cpython-37.pyc
 │   │   └── test_dag.py
+│   ├── logs
 │   ├── docker-compose.yaml
 │   └── plugins
+│   └── .env.example
 ├── cli
 │   ├── cli.sh
 │   ├── commands
