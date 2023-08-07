@@ -9,3 +9,14 @@
 == cleanup.sh 2023-08-07T17:40:01Z Removing all airflow local images and volumes
 == cleanup.sh 2023-08-07T17:47:55Z Removing all airflow local images and volumes
 == cleanup.sh 2023-08-07T18:11:18Z Removing all airflow local images and volumes
+== cleanup.sh 2023-08-07T18:19:45Z Removing all airflow local images and volumes
+== cleanup.sh 2023-08-07T18:21:27Z Removing all airflow local images and volumes
+== cleanup.sh 2023-08-07T18:23:37Z Removing all airflow local images and volumes
+poc-airflow-local-postgres-1
+poc-airflow-local-redis-1
+== cleanup.sh 2023-08-07T18:23:52Z Removing all airflow local images and volumes
+poc-airflow-local-postgres-1
+poc-airflow-local-redis-1
+poc-airflow-local-redis-1
+poc-airflow-local-postgres-1
+== cleanup.sh 2023-08-07T18:23:53Z All airflow local images and volumes removed
