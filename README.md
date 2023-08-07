@@ -93,23 +93,25 @@ TBD
 
 ```bash
 .
-├── airflow.Dockerfile
-├── airflow.sh
+├── airflow
+│   ├── airflow.Dockerfile
+│   ├── airflow.sh
+│   ├── config
+│   ├── dags
+│   │   ├── __pycache__
+│   │   │   └── test_dag.cpython-37.pyc
+│   │   └── test_dag.py
+│   ├── docker-compose.yaml
+│   └── plugins
 ├── cli
-│   ├── cli
+│   ├── cli.sh
 │   ├── commands
-│   │   ├── cleanup
-│   │   ├── startdb
-│   │   ├── startdev
-│   │   └── stopdb
-│   └── common
-├── config
-├── dags
-│   ├── __pycache__
-│   │   └── test_dag.cpython-37.pyc
-│   └── test_dag.py
-├── docker-compose.yaml
-├── plugins
+│   │   ├── cleanup.sh
+│   │   ├── startdb.sh
+│   │   ├── startdev.sh
+│   │   └── stopdb.sh
+│   └── utils
+│       └── common.sh
 └── README.md
 ```
 
